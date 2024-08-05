@@ -34,6 +34,11 @@ nav ul li {
     display: none;
 }
 
+nav span {
+    /* border: 2px solid red; */
+    /* margin-left: 0px; */
+}
+
 /* ------------- media query ------------- */
 
 @media (max-width:1000px) {
@@ -59,7 +64,7 @@ nav ul li {
     nav ul {
         position: fixed;
         top: 0;
-        right: -200px;
+        right: 0px;
         bottom: 0;
         background: #212EA0;
         z-index: -1;
@@ -71,7 +76,6 @@ nav ul li {
     nav ul li {
         display: block;
         margin: 25px 40px;
-
     }
 
     .menu-icon {
@@ -81,6 +85,11 @@ nav ul li {
     }
 
     .hide-mobile-menu {
-        right: 0px;
+        right: -200px;
+    }
+
+    nav span svg {
+        /* border: 2px solid red; */
+        font-size: 30px;
     }
 }

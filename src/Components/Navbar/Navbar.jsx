@@ -15,7 +15,7 @@ export default function Navbar() {
         })
     }, [])
 
-    const [mobileMenu, setMobileMenu] = useState(true);
+    const [mobileMenu, setMobileMenu] = useState(false);
     const toggleMenu = () => {
         mobileMenu ? setMobileMenu(false) : setMobileMenu(true)
     }
@@ -24,6 +24,7 @@ export default function Navbar() {
         <>
             <nav className={`container ${sticky ? 'dark-nav' : ''}`}>
                 <img src={logo} className='logo' alt="" />
+                <span><RxHamburgerMenu className='menu-icon' onClick={toggleMenu} /></span>
                 <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
                     <li><Link to='hero'
                         smooth={true}
@@ -52,7 +53,7 @@ export default function Navbar() {
                         offset={-260}
                         durastion={500} className='btn'>Contact Us</Link> </li>
                 </ul>
-                <span><RxHamburgerMenu className='menu-icon' onClick={toggleMenu} /></span>
+                {/* <span><RxHamburgerMenu className='menu-icon' onClick={toggleMenu} /></span> */}
             </nav>
         </>
     )
