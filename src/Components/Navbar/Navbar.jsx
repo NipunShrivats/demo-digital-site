@@ -29,9 +29,7 @@ export default function Navbar() {
                     <li><Link to='hero'
                         smooth={true}
                         offset={0}
-                        durastion={500}
-                    >Home</Link></li>
-
+                        durastion={500}>Home</Link></li>
                     <li><Link to='services'
                         smooth={true}
                         offset={-260}
@@ -48,7 +46,7 @@ export default function Navbar() {
                         smooth={true}
                         offset={-260}
                         durastion={500}>Testimonials</Link></li>
-                    <li><Link to='contact'
+                    <li className='btn-li'><Link to='contact'
                         smooth={true}
                         offset={-260}
                         durastion={500} className='btn'>Contact Us</Link> </li>
