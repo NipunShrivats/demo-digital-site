@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: space-between;
     /* border: 2px solid red; */
+
 }
 
 .service img {
@@ -43,11 +44,16 @@
 .service:hover .caption {
     opacity: 1;
     padding-top: 0%;
+    color: white;
 }
 
 .caption img {
     width: 60px;
     margin-bottom: 10px;
+}
+
+.caption p {
+    color: white;
 }
 
 /* ------------- media query ------------- */

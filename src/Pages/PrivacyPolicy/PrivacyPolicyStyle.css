@@ -1,0 +1,10 @@
+* {
+    color: black;
+}
+
+.nav {
+    background-color: var(--theme-color-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

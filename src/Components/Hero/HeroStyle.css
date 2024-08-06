@@ -21,12 +21,14 @@
 .hero-text h1 {
     font-size: 60px;
     font-weight: 600;
+    color: #ffffff;
 }
 
 .hero-text p {
     max-width: 700px;
     margin: 10px auto 20px;
     line-height: 1.4;
+    color: #ffffff;
 }
 
 .hero .hero-text button span {

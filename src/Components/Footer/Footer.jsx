@@ -8,8 +8,8 @@ export default function Footer() {
                 <p>© 2024 Sensationz Media & Arts pvt. ltd. | All rights reserved </p>
 
                 <ul>
-                    <li>Terms of Services</li>
-                    <li>Privacy Policy</li>
+                    <a href="/"><li>Home</li></a>
+                    <a href="/PrivacyPolicy/:id"><li>Privacy Policy</li></a>
                 </ul>
             </div>
 

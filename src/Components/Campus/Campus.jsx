@@ -19,7 +19,6 @@ export default function Campus() {
                     <img src={gallery_4} alt="" />
                 </div>
                 <button className='btn dark-btn'>Explore More
-                    <span><FaArrowRightLong /></span>
                 </button>
             </div>
         </>
