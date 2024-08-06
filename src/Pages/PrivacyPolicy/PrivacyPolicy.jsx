@@ -10,7 +10,6 @@ export default function PrivacyPolicy() {
 
             <div className='container'>
 
-
                 <div>
                     <h1>Privacy Policy</h1>
                 </div>
