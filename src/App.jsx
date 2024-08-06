@@ -11,7 +11,7 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' exact={true} element={<Home />} />
-          <Route path='/PrivacyPolicy/:id' element={<PrivacyPolicy />} />
+          <Route path='/PrivacyPolicy/' element={<PrivacyPolicy />} />
         </Routes>
         <div className='container'>
           <Footer />
