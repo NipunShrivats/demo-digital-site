@@ -41,23 +41,23 @@ export default function Navbar() {
                         durastion={500}>Home</Link></li>
                     <li><Link to='services'
                         smooth={true}
-                        offset={-260}
+                        offset={-210}
                         durastion={500}>Services</Link></li>
                     <li> <Link to='about'
                         smooth={true}
-                        offset={-150}
+                        offset={-240}
                         durastion={500}>About Us</Link></li>
                     <li><Link to='campus'
                         smooth={true}
-                        offset={-260}
+                        offset={-230}
                         durastion={500}>Campus</Link></li>
                     <li><Link to='testimonials'
                         smooth={true}
-                        offset={-260}
+                        offset={-290}
                         durastion={500}>Testimonials</Link></li>
                     <li className='btn-li'><Link to='contact'
                         smooth={true}
-                        offset={-260}
+                        offset={-250}
                         durastion={500} className='btn'>Contact Us</Link> </li>
                 </ul>
                 {/* <span><RxHamburgerMenu className='menu-icon' onClick={toggleMenu} /></span> */}

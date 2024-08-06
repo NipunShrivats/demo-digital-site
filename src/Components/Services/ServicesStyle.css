@@ -14,8 +14,9 @@
 }
 
 .service {
-    flex-basis: 20%;
+    flex-basis: 28%;
     position: relative;
+    margin-bottom: 1rem;
 }
 
 .caption {
@@ -57,5 +58,10 @@
     .service {
         flex-basis: 100%;
         margin: 20px;
+    }
+
+    .service .caption {
+        opacity: 1;
+        padding-top: 0%;
     }
 }
