@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "./NavbarStyle.css"
-import logo from "../../assets/imgAssets/logo1.png"
+import logow from "../../assets/imgAssets/logo-white.png"
+import logob from "../../assets/imgAssets/logo-black.png"
 
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
 import { RxHamburgerMenu } from "react-icons/rx";
@@ -25,7 +26,7 @@ export default function Navbar() {
             <nav className={`container ${sticky ? 'dark-nav' : ''}`}>
                 <div className='logo-cover1'>
                     <div className='logo-inside1'>
-                        <img src={logo} className='logo' alt="" />
+                        <img src={logob} className='logo' alt="" />
                     </div>
                     <div className='logo-inside2'>
                         <h5>SENSATIONZ</h5>

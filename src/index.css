@@ -3,8 +3,9 @@
 :root {
     --theme-color-bg: rgba(227, 15, 14, 1);
     --theme-color-highlight: rgba(227, 15, 14, 1);
-    --theme-color-highlight2: rgba(203, 119, 119, 0.292);
-    --theme-color-highlight3: rgba(230, 112, 112, 0.13);
+    --theme-color-highlight2: rgba(229, 94, 94, 0.292);
+    --theme-color-highlight3: rgba(48, 21, 14, 0.24);
+    --theme-color-highlight4: rgba(71, 65, 65, 0.13);
     --theme-color-input: rgb(255, 235, 235);
 }
 

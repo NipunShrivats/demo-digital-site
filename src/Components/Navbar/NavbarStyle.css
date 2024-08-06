@@ -31,10 +31,11 @@ nav {
     /* width: 400px; */
     /* position: absolute; */
     /* padding-bottom: -8px; */
+    color: black;
 }
 
 .logo {
-    width: 2.5rem;
+    width: 3.5rem;
 }
 
 .logo-cover1 .logo-inside1 {
@@ -54,6 +55,7 @@ nav {
     font-size: 10px;
     line-height: 0%;
     padding-top: 1rem;
+    color: black;
 }
 
 nav ul li {
