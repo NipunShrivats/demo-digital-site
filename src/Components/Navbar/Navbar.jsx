@@ -23,7 +23,16 @@ export default function Navbar() {
     return (
         <>
             <nav className={`container ${sticky ? 'dark-nav' : ''}`}>
-                <img src={logo} className='logo' alt="" />
+                <div className='logo-cover1'>
+                    <div className='logo-inside1'>
+                        <img src={logo} className='logo' alt="" />
+                    </div>
+                    <div className='logo-inside2'>
+                        <h5>SENSATIONZ</h5>
+                        <h3>DIGITAL</h3>
+                    </div>
+
+                </div>
                 <span><RxHamburgerMenu className='menu-icon' onClick={toggleMenu} /></span>
                 <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
                     <li><Link to='hero'

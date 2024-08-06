@@ -12,8 +12,46 @@ nav {
     z-index: 10;
 }
 
+.logo-cover1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.logo-cover1 h3 {
+    font-size: 2.5rem;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    /* width: 400px; */
+    /* position: absolute; */
+    /* padding-bottom: -8px; */
+}
+
 .logo {
-    width: 2rem;
+    width: 2.5rem;
+}
+
+.logo-cover1 .logo-inside1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-cover1 .logo-inside2 {
+    /* border: 2px solid red; */
+}
+
+.logo-cover1 .logo-inside2 h5 {
+    /* border: 2px solid red; */
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    line-height: 0%;
+    padding-top: 1rem;
 }
 
 nav ul li {
