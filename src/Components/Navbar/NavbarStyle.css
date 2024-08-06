@@ -95,7 +95,7 @@ nav span {
 
 /* ------------- media query ------------- */
 
-@media (max-width:1000px) {
+@media (max-width:1118px) {
     .logo {
         /* width: 140px; */
     }
@@ -110,7 +110,7 @@ nav span {
 
 }
 
-@media (max-width:840px) {
+@media (max-width:900px) {
     nav {
         padding: 15px 0;
     }
@@ -145,5 +145,17 @@ nav span {
     nav span svg {
         /* border: 2px solid red; */
         font-size: 30px;
+    }
+
+    .logo-cover1 .logo-inside1 .logo {
+        width: 2rem;
+    }
+
+    .logo-cover1 .logo-inside2 h5 {
+        font-size: .5rem;
+    }
+
+    .logo-cover1 .logo-inside2 h3 {
+        font-size: 2rem;
     }
 }
