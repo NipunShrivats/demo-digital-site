@@ -12,8 +12,8 @@ export default function Hero() {
                     <h1>WELCOME</h1>
                     <h3>to</h3>
                     <h1>SENSATIONZ DIGITAL</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error aut facere animi inventore velit commodi.</p>
-                    <a href="https://wa.me/917500707240?text=Hello, I want to know more about your services" target='blank_'>
+                    <p>At Senationz Digital, we specialize in boosting your website traffic and empowering your brand to grow exponentially</p>
+                    <a href="https://wa.me/918800348485?text=Hello, I want to know more about your services" target='blank_'>
                         <button className='btn btn-wp'>
                             <span><FaWhatsapp /></span>
                             Chat on whatsapp
