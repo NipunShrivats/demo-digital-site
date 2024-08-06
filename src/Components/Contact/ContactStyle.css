@@ -51,7 +51,8 @@
 .contact-col ul li span svg {
     font-size: 25px;
     margin-right: 10px;
-    color: #222994;
+    /* color: #222994; */
+    color: var(--theme-color-highlight);
 }
 
 .contact form input,
@@ -59,6 +60,7 @@
     display: block;
     width: 100%;
     background: #EBECFE;
+    background: var(--theme-color-input);
     padding: 15px;
     border: 0;
     outline: 0;

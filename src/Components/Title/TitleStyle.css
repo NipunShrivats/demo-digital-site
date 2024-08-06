@@ -1,6 +1,7 @@
 .title {
     /* border: 2px solid red; */
-    color: #212EA0;
+    /* color: #212EA0; */
+    color: var(--theme-color-bg);
     text-align: center;
     font-size: 15px;
     font-weight: 600;

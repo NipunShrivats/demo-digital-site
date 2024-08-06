@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
+:root {
+    --theme-color-bg: rgba(227, 15, 14, 1);
+    --theme-color-highlight: rgba(227, 15, 14, 1);
+    --theme-color-highlight2: rgba(227, 14, 14, 0.247);
+    --theme-color-input: rgb(255, 235, 235);
+}
+
 * {
     padding: 0px;
     margin: 0px;
@@ -40,7 +47,8 @@ a {
 }
 
 .btn.dark-btn {
-    background: #212EA0;
+    /* background: #212EA0; */
+    background: var(--theme-color-bg);
     color: white;
 }
 
