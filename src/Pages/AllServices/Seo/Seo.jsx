@@ -1,6 +1,6 @@
 import React from 'react';
 import "./SeoStyle.css";
-import bannerImg from "../../../assets/imgAssets/banner2.jpg";
+import bannerImg from "../../../assets/imgAssets/banner1.png";
 
 import Nav from '../../LogoNav/LogoNav'
 import Banner from '../../../Components/ServicePageComponents/Banner/Banner'
