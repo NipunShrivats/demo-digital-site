@@ -1,8 +1,11 @@
 import React from 'react'
 import "./VideoEditingStyle.css"
-
+import Nav from '../../LogoNav/LogoNav'
 export default function VideoEditing() {
     return (
-        <div>VideoEditing</div>
+        <>
+            <Nav />
+            <div>VideoEditing</div>
+        </>
     )
 }

@@ -1,8 +1,12 @@
 import React from 'react'
 import "./GraphicDesigningStyle.css";
+import Nav from '../../LogoNav/LogoNav'
 
 export default function GraphicDesigning() {
     return (
-        <div>GraphicDesigning</div>
+        <>
+            <Nav />
+            <div>GraphicDesigning</div>
+        </>
     )
 }

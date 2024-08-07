@@ -1,6 +1,6 @@
 import React from 'react';
 import "./PrivacyPolicyStyle.css";
-import Nav from "../PrivacyPolicy/Nav";
+import Nav from "../LogoNav/LogoNav";
 
 
 export default function PrivacyPolicy() {

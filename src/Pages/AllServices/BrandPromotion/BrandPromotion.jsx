@@ -1,9 +1,12 @@
 import React from 'react';
 import "./BrandPromotionStyle.css";
-
+import Nav from '../../LogoNav/LogoNav'
 
 export default function BrandPromotion() {
     return (
-        <div>BrandPromotion</div>
+        <>
+            <Nav />
+            <div>BrandPromotion</div>
+        </>
     )
 }

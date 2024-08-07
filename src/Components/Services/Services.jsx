@@ -46,13 +46,13 @@ export default function Services() {
                 />
                 <Service
                     img={webDesign}
-                    href={"/servies/webdesigning"}
+                    href={"/services/webdesigning"}
                     capImg={programIcon2}
                     caption={"Web Designing"}
                 />
                 <Service
                     img={graphicDesign}
-                    href={"/servies/graphicdesigning"}
+                    href={"/services/graphicdesigning"}
                     capImg={programIcon3}
                     caption={"Graphic Designing"}
                 />
@@ -63,19 +63,19 @@ export default function Services() {
 
                 <Service
                     img={videoEditing}
-                    href={"/servies/videoediting"}
+                    href={"/services/videoediting"}
                     capImg={programIcon1}
                     caption={"Video Editing"}
                 />
                 <Service
                     img={socialMedia}
-                    href={"/servies/socialmediamanagement"}
+                    href={"/services/socialmediamanagement"}
                     capImg={programIcon2}
                     caption={"Social Media Management"}
                 />
                 <Service
                     img={brandPromo}
-                    href={"/servies/brandpromotion"}
+                    href={"/services/brandpromotion"}
                     capImg={programIcon3}
                     caption={"Brand Promotion"}
                 />

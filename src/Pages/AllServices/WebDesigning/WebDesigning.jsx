@@ -1,7 +1,10 @@
 import React from 'react'
-
+import Nav from '../../LogoNav/LogoNav'
 export default function WebDesigning() {
     return (
-        <div>WebDesigning</div>
+        <>
+            <Nav />
+            <div>WebDesigning</div>
+        </>
     )
 }

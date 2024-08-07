@@ -1,5 +1,6 @@
 import React from 'react';
 import './FooterStyle.css';
+import { Link } from "react-router-dom";
 
 export default function Footer() {
     return (
@@ -9,14 +10,15 @@ export default function Footer() {
 
                     {/* <h4>Serch Services</h4> */}
                     <ul>
-                        <a href="/"><li>Home</li></a>
-                        <a href="/servies/seo"><li>S.E.O</li></a>
-                        <a href="/services/webdesigning"><li>Web Designing</li></a>
-                        <a href="/services/graphicdesigning"><li>Graphic Designing</li></a>
-                        <a href="/services/videoediting"><li>Video Editing</li></a>
-                        <a href="/services/socialmediamanagement"><li>Social Media Management</li></a>
-                        <a href="/services/brandpromotion"><li>Brand Promotion</li></a>
-                        <a href="/PrivacyPolicy"><li className='privacy'>Privacy Policy</li></a>
+                        <Link to="/"><li>Home</li></Link>
+                        <Link to="/servies/seo"><li>S.E.O</li></Link>
+                        <Link to="/services/webdesigning"><li>Web Designing</li></Link>
+                        <Link to="/services/graphicdesigning"><li>Graphic Designing</li></Link>
+                        <Link to="/services/videoediting"><li>Video Editing</li></Link>
+                        <Link to="/services/socialmediamanagement"><li>Social Media Management</li></Link>
+                        <Link to="/services/brandpromotion"><li>Brand Promotion</li></Link>
+                        <Link to="/PrivacyPolicy"><li className='privacy'>Privacy Policy</li></Link>
+                        {/* <Link ></Link> */}
                     </ul>
                 </div>
                 {/* <hr /> */}
