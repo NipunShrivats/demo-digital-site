@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './ServicesStyle.css';
 // import program1 from '../../assets/imgAssets/program-1.png'
 // import program2 from '../../assets/imgAssets/program-2.png'
@@ -16,17 +17,17 @@ import socialMedia from '../../assets/services-img/social-media-management.jpg'
 import brandPromo from '../../assets/services-img/brand-promo.jpg'
 
 function Service(props) {
-    const { img, href, capImg, caption } = props;
+    const { img, to, capImg, caption } = props;
     return (
         <>
             <div className='service'>
                 <img src={img} alt="" />
-                <a href={href}>
+                <Link to={to}>
                     <div className='caption'>
                         <img src={capImg} alt="" />
                         <p>{caption}</p>
                     </div>
-                </a>
+                </Link>
             </div>
         </>
     )
@@ -40,19 +41,19 @@ export default function Services() {
             <div className='services'>
                 <Service
                     img={seo}
-                    href={"/servies/seo"}
+                    to={"/servies/seo"}
                     capImg={programIcon1}
                     caption={"S.E.O"}
                 />
                 <Service
                     img={webDesign}
-                    href={"/services/webdesigning"}
+                    to={"/services/webdesigning"}
                     capImg={programIcon2}
                     caption={"Web Designing"}
                 />
                 <Service
                     img={graphicDesign}
-                    href={"/services/graphicdesigning"}
+                    to={"/services/graphicdesigning"}
                     capImg={programIcon3}
                     caption={"Graphic Designing"}
                 />
@@ -63,19 +64,19 @@ export default function Services() {
 
                 <Service
                     img={videoEditing}
-                    href={"/services/videoediting"}
+                    to={"/services/videoediting"}
                     capImg={programIcon1}
                     caption={"Video Editing"}
                 />
                 <Service
                     img={socialMedia}
-                    href={"/services/socialmediamanagement"}
+                    to={"/services/socialmediamanagement"}
                     capImg={programIcon2}
                     caption={"Social Media Management"}
                 />
                 <Service
                     img={brandPromo}
-                    href={"/services/brandpromotion"}
+                    to={"/services/brandpromotion"}
                     capImg={programIcon3}
                     caption={"Brand Promotion"}
                 />
