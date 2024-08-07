@@ -1,0 +1,36 @@
+.box1 {
+    margin: 6rem 3rem;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    /* margin: 0 3rem; */
+}
+
+.box1 .left {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 1rem;
+}
+
+.box1 .left ul li span {
+    display: flex;
+    /* border: 2px solid red; */
+
+}
+
+.box1 .left ul li span svg {
+    display: flex;
+    font-size: 20px;
+    /* border: 2px solid red; */
+
+}
+
+.box1 .left ul li {
+    display: flex;
+    /* gap: 0.1rem; */
+    /* border: 2px solid red; */
+}
