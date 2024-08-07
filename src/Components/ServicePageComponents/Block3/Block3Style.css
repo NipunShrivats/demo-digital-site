@@ -37,7 +37,7 @@
 
 @media(max-width:800px) {
     .box1 {
-        margin: 6rem 3rem;
+        margin: 2rem 3rem;
         /* border: 2px solid red; */
         display: flex;
         flex-direction: column;
