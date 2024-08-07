@@ -15,56 +15,70 @@ import videoEditing from '../../assets/services-img/video-editing.jpg'
 import socialMedia from '../../assets/services-img/social-media-management.jpg'
 import brandPromo from '../../assets/services-img/brand-promo.jpg'
 
+function Service(props) {
+    const { img, href, capImg, caption } = props;
+    return (
+        <>
+            <div className='service'>
+                <img src={img} alt="" />
+                <a href={href}>
+                    <div className='caption'>
+                        <img src={capImg} alt="" />
+                        <p>{caption}</p>
+                    </div>
+                </a>
+            </div>
+        </>
+    )
+}
+
 
 export default function Services() {
+
     return (
         <>
             <div className='services'>
-                <div className='service'>
-                    <img src={seo} alt="" />
-                    <div className='caption'>
-                        <img src={programIcon1} alt="" />
-                        <p>S.E.O</p>
-                    </div>
-                </div>
-                <div className='service'>
-                    <img src={webDesign} alt="" />
-                    <div className='caption'>
-                        <img src={programIcon2} alt="" />
-                        <p>Web Designing</p>
-                    </div>
-                </div>
-                <div className='service'>
-                    <img src={graphicDesign} alt="" />
-                    <div className='caption'>
-                        <img src={programIcon3} alt="" />
-                        <p>Graphic Designing</p>
-                    </div>
-                </div>
-            </div>
+                <Service
+                    img={seo}
+                    href={"/servies/seo"}
+                    capImg={programIcon1}
+                    caption={"S.E.O"}
+                />
+                <Service
+                    img={webDesign}
+                    href={"/servies/webdesigning"}
+                    capImg={programIcon2}
+                    caption={"Web Designing"}
+                />
+                <Service
+                    img={graphicDesign}
+                    href={"/servies/graphicdesigning"}
+                    capImg={programIcon3}
+                    caption={"Graphic Designing"}
+                />
+
+            </div >
 
             <div className='services'>
-                <div className='service'>
-                    <img src={videoEditing} alt="" />
-                    <div className='caption'>
-                        <img src={programIcon1} alt="" />
-                        <p>Video Editing</p>
-                    </div>
-                </div>
-                <div className='service'>
-                    <img src={socialMedia} alt="" />
-                    <div className='caption'>
-                        <img src={programIcon2} alt="" />
-                        <p>Social Media Management</p>
-                    </div>
-                </div>
-                <div className='service'>
-                    <img src={brandPromo} alt="" />
-                    <div className='caption'>
-                        <img src={programIcon3} alt="" />
-                        <p>Brand Promotion</p>
-                    </div>
-                </div>
+
+                <Service
+                    img={videoEditing}
+                    href={"/servies/videoediting"}
+                    capImg={programIcon1}
+                    caption={"Video Editing"}
+                />
+                <Service
+                    img={socialMedia}
+                    href={"/servies/socialmediamanagement"}
+                    capImg={programIcon2}
+                    caption={"Social Media Management"}
+                />
+                <Service
+                    img={brandPromo}
+                    href={"/servies/brandpromotion"}
+                    capImg={programIcon3}
+                    caption={"Brand Promotion"}
+                />
             </div>
         </>
     )

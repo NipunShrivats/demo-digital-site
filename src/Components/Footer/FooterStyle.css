@@ -3,10 +3,27 @@
     color: black;
     margin: 10px auto;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: space-between; */
     border-top: 1px solid #797979;
     padding-top: 1rem;
+}
+
+.footer .foot1 {
+    /* border: 2px solid red; */
+    color: black;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .foot2 {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer ul li {
@@ -14,11 +31,19 @@
     margin-left: 20px;
     cursor: pointer;
     border: 2px solid transparent;
-    transition: 0.5s;
+    transition: 0.2s;
+    color: black;
+    padding-bottom: 0.2rem;
+
 }
 
 .footer ul li:hover {
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid red;
+    color: red;
+}
+
+.footer .foot1 .privacy {
+    color: red;
 }
 
 /* ------------- media query ------------- */
