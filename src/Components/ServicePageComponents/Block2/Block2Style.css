@@ -16,6 +16,7 @@
 
 .box h2 {
     color: white;
+    text-align: center;
 }
 
 .box button {
@@ -43,6 +44,7 @@
     .box h2 {
         color: white;
         font-size: .8rem;
+        text-align: center;
     }
 
     .box button {

@@ -11,8 +11,8 @@ import Block4 from "../../../Components/ServicePageComponents/Block4/Block4";
 import Contact from "../../../Components/Contact/Contact"
 import Title from '../../../Components/Title/Title'
 
-import img1 from "../../../assets/imgAssets/seo-page1.jpg";
-import img2 from "../../../assets/imgAssets/seo-page2.jpg";
+import img1 from "../../../assets/services-img/seo.jpg";
+import img2 from "../../../assets/services-img/seo2.jpg";
 
 export default function Seo() {
     return (
