@@ -10,6 +10,10 @@
     justify-content: center;
 }
 
-.nav img {
-    width: 15rem;
+
+@media(max-width:800px) {
+    .nav img {
+        width: 15rem;
+    }
+
 }
