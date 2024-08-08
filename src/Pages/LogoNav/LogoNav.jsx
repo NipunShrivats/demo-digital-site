@@ -9,7 +9,18 @@ export default function Nav() {
         <>
             <div className='nav'>
                 <Link to="/"><img src={logow} alt="" /></Link>
-            </div>
+                <div className='top-links'>
+                    <ul className='top-links-ul'>
+                        <Link to={"/"}><li>Home</li ></Link><span>|</span>
+                        <Link to={""}><li>S.E.O</li></Link><span>|</span>
+                        <Link to={""}><li>Web Designing</li></Link><span>|</span>
+                        <Link to={""}><li>Graphic Designing</li></Link><span>|</span>
+                        <Link to={""}><li>Video Editing</li></Link><span>|</span>
+                        <Link to={""}><li>Social Media Management</li></Link><span>|</span>
+                        <Link to={""}><li>Brand Promotion</li></Link>
+                    </ul>
+                </div>
+            </div >
         </>
     )
 }
