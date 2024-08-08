@@ -128,26 +128,13 @@ nav span {
         right: 0px;
         bottom: 0;
         background: var(--theme-color-bg);
-        z-index: -1;
         width: 200px;
         padding-top: 70px;
-        transition: 0.5s;
-        z-index: 101;
-    }
-
-    nav ul {
-        position: fixed;
-        top: 0;
-        right: 0px;
-        bottom: 0;
-        background: var(--theme-color-bg);
-        /* background: #212EA0; */
+        transition: ease-in-out 0.5s;
         z-index: -1;
-        width: 200px;
-        padding-top: 70px;
-        transition: 0.5s;
         /* z-index: 101; */
     }
+
 
     nav ul li {
         display: block;
