@@ -78,6 +78,15 @@ li {
     /* color: white; */
 }
 
+.loader-cover {
+    /* border: 2px solid red; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* ------------- media query ------------- */
 
 @media (max-width:1200px) {
@@ -88,5 +97,9 @@ li {
 
     .btn {
         padding: 14px 22px;
+    }
+
+    .loader {
+        font-size: 2rem;
     }
 }

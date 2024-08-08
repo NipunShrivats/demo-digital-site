@@ -10,9 +10,8 @@ import About from '../../Components/About/About'
 import Campus from '../../Components/Campus/Campus'
 import Testimonials from '../../Components/Testimonials/Testimonials'
 import VideoPlayer from '../../Components/VideoPlayer/VideoPlayer'
-// import Loader from '../../Components/Loader/Loader'
-import ClipLoader from "react-spinners/ClipLoader";
-import BounceLoader from "react-spinners/BounceLoader";
+
+import BeatLoader from "react-spinners/BeatLoader";
 
 
 export default function Home() {
@@ -33,11 +32,11 @@ export default function Home() {
             {
                 loading ?
                     <div className='loader-cover'>
-                        <BounceLoader
+                        <BeatLoader
                             color={"#ff0000"}
                             loading={loading}
-                            size={150}
-                            aria-label="Loading Spinner"
+                            size={20}
+                            aria-label="Loading bouncer"
                             data-testid="loader"
                             className='loader'
                         />
