@@ -29,7 +29,7 @@ export default function Home() {
             </div>
 
             <div className='container'>
-                <Title title={"gallery"} subtitle={"campus Photos"} />
+                <Title title={"clients"} subtitle={"Whom we have worked for?"} />
                 <Campus />
             </div>
 

@@ -26,7 +26,7 @@ export default function Navbar() {
             <nav className={`container ${sticky ? 'dark-nav' : ''}`}>
                 <div className='logo-cover1'>
                     <div className='logo-inside1'>
-                        <img src={logob} className='logo' alt="" />
+                        <img src={logow} className='logo' alt="" />
                     </div>
                     <div className='logo-inside2'>
                         <h5>SENSATIONZ</h5>
