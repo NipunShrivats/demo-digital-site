@@ -52,7 +52,7 @@
 
 }
 
-.menu-icon {
+.nav .menu-icon {
     display: none;
 }
 
@@ -94,7 +94,7 @@
         font-size: .8rem;
     }
 
-    .menu-icon {
+    .nav .menu-icon {
         position: absolute;
         display: flex;
         width: 30px;
@@ -107,7 +107,7 @@
         transition: .3s;
     }
 
-    .menu-icon:hover {
+    .nav .menu-icon:hover {
         scale: 1.1;
     }
 
