@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Footer from './Components/Footer/Footer'
 import Home from './Pages/Home/Home'
 import PrivacyPolicy from './Pages/PrivacyPolicy/PrivacyPolicy'
@@ -9,12 +9,13 @@ import GraphicDesigning from './Pages/AllServices/GraphicDesigning/GraphicDesign
 import VideoEditing from './Pages/AllServices/VideoEditing/VideoEditing'
 import SocialMediaManagement from './Pages/AllServices/SocialMediaManagement/SocialMediaManagement'
 import BrandPromotion from './Pages/AllServices/BrandPromotion/BrandPromotion'
-
+// import Loader from './Components/Loader/Loader'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 export default function App() {
   return (
     <>
+
       <BrowserRouter>
         <Routes>
           <Route path='/' exact={true} element={<Home />} />
@@ -30,6 +31,7 @@ export default function App() {
           <Footer />
         </div>
       </BrowserRouter>
+
     </>
 
   )
