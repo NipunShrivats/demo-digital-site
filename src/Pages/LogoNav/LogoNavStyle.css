@@ -105,6 +105,7 @@
         right: 1rem;
         color: white;
         transition: .3s;
+        font-size: 2rem;
     }
 
     .nav .menu-icon:hover {
