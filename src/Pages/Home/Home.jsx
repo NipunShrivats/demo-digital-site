@@ -7,7 +7,7 @@ import Contact from '../../Components/Contact/Contact'
 import Hero from '../../Components/Hero/Hero'
 import Services from '../../Components/Services/Services'
 import About from '../../Components/About/About'
-import Campus from '../../Components/Campus/Campus'
+import Clients from '../../Components/Clients/Clients'
 import Testimonials from '../../Components/Testimonials/Testimonials'
 import VideoPlayer from '../../Components/VideoPlayer/VideoPlayer'
 
@@ -60,7 +60,7 @@ export default function Home() {
 
                         <div className='container'>
                             <Title title={"clients"} subtitle={"Whom we have worked for?"} />
-                            <Campus />
+                            <Clients />
                         </div>
 
                         <div className='container'>
