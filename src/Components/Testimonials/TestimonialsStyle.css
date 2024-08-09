@@ -1,6 +1,8 @@
 .testimonials {
-    /* border: 2px solid red; */
+    /* border: 1px solid red; */
     width: 100%;
+    /* padding: 2rem; */
+    background-color: aliceblue;
 }
 
 .testimonials .section1,
@@ -19,17 +21,19 @@
 
 .testimonials .section1 .ele,
 .testimonials .section2 .ele {
-    /* border: 2px solid rgb(0, 97, 6); */
+    /* border: 1px solid rgba(0, 0, 0, 0.5); */
+    /* padding: 1rem; */
     /* position: absolute; */
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
+    padding: 0rem 2rem;
 }
 
 .testimonials .section1 .ele .img {
     width: 18rem;
     border-radius: 1rem;
+    box-shadow: 1px 2px 6px var(--theme-color-highlight);
 }
 
 .testimonials .section2 .ele .img {
@@ -37,8 +41,7 @@
     border-radius: 1rem;
 }
 
-.testimonials .section1 .ele .playIcon,
-.testimonials .section2 .ele .playIcon {
+.testimonials .section1 .ele .playIconLink {
     /* border: 2px solid rgb(0, 97, 6); */
     position: absolute;
     width: 5rem;
@@ -46,8 +49,15 @@
     cursor: pointer;
 }
 
-.testimonials .section1 .ele .playIcon:hover,
-.testimonials .section2 .ele .playIcon:hover {
+.testimonials .section1 .ele .playIcon {
+    /* border: 2px solid rgb(0, 97, 6); */
+    /* position: absolute; */
+    width: 5rem;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.testimonials .section1 .ele .playIcon:hover {
     /* border: 2px solid rgb(0, 97, 6); */
     /* position: absolute; */
     scale: 1.2;

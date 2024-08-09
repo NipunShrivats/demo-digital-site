@@ -18,17 +18,21 @@ export default function Testimonials() {
                 <div className="section1">
                     <div className='ele'>
                         <img src={clientImage1} alt="" className='img' />
-                        <img src={PlayIcon} alt="" className='playIcon' />
+                        <Link to="https://www.facebook.com/reel/790279912242501" target='blank_' className='playIconLink'>
+                            <img src={PlayIcon} alt="" className='playIcon' />
+                        </Link>
                     </div>
                     <div className='ele'>
                         <img src={clientImage2} alt="" className='img' />
-                        {/* <Link to="" className='playIconLink'> */}
-                        <img src={PlayIcon} alt="" className='playIcon' />
-                        {/* </Link> */}
+                        <Link to="https://www.youtube.com/watch?v=h_c5ZlBcNaw" target='blank_' className='playIconLink'>
+                            <img src={PlayIcon} alt="" className='playIcon' />
+                        </Link>
                     </div>
                     <div className='ele'>
                         <img src={clientImage1} alt="" className='img' />
-                        <img src={PlayIcon} alt="" className='playIcon' />
+                        <Link to="https://www.facebook.com/reel/790279912242501" target='blank_' className='playIconLink'>
+                            <img src={PlayIcon} alt="" className='playIcon' />
+                        </Link>
                     </div>
                 </div>
                 {/* <div className="section2">
