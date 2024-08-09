@@ -83,7 +83,7 @@ export default function Clients() {
                     </ul>
                 </div>
 
-                <button className='btn dark-btn view-more'><Link to="/Allclients">View More clients</Link></button>
+                <button className='btn dark-btn view-more'><Link to="/clients/Allclients">View More clients</Link></button>
             </div>
         </>
     )

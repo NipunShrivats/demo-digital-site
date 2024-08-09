@@ -9,7 +9,8 @@ import GraphicDesigning from './Pages/AllServices/GraphicDesigning/GraphicDesign
 import VideoEditing from './Pages/AllServices/VideoEditing/VideoEditing'
 import SocialMediaManagement from './Pages/AllServices/SocialMediaManagement/SocialMediaManagement'
 import BrandPromotion from './Pages/AllServices/BrandPromotion/BrandPromotion'
-import Allclients from './Pages/Allclients/Allclients'
+import AllClients from "./Pages/Allclients/Allclients"
+
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 export default function App() {
@@ -25,8 +26,8 @@ export default function App() {
           <Route path='/services/graphicdesigning' exact={true} element={<GraphicDesigning />} />
           <Route path='/services/videoediting' exact={true} element={<VideoEditing />} />
           <Route path='/services/socialmediamanagement' exact={true} element={<SocialMediaManagement />} />
-          <Route path='/services/brandpromotion' exact={true} elemzent={<BrandPromotion />} />
-          <Route path='/Allclients' exact={true} elemzent={<Allclients />} />
+          <Route path='/services/brandpromotion' exact={true} element={<BrandPromotion />} />
+          <Route path='/clients/Allclients' exact={true} element={<AllClients />} />
         </Routes>
         <div className='container'>
           <Footer />
