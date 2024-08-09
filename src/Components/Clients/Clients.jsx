@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import './ClientsStyle.css'
 import { FaArrowRight } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa";
+import { Link } from "react-router-dom"
 
 import client1 from "../../assets/imgAssets/client1.jpg"
 import client2 from "../../assets/imgAssets/client2.jpg"
@@ -63,14 +64,14 @@ export default function Clients() {
                         />
                         <InsideSlider1
                             clientImage={client2}
-                            userName={"Simit Vyas"}
-                            userLocation={"New Delhi, India"}
+                            userName={"Durvam's Diary"}
+                            userLocation={"@durvasumedha"}
                             userReview={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab asperiores ipsa, reprehenderit error dolores, minima ad quasi consectetur fugiat, minus ratione aliquam placeat repellendus. Cumque provident asperiores autem tempore suscipit?"}
                         />
                         <InsideSlider1
                             clientImage={client3}
-                            userName={"Chameli Rana"}
-                            userLocation={"Lucknow, UP"}
+                            userName={"Glance Fire & Safety consultant"}
+                            userLocation={"@glanceenterprice"}
                             userReview={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab asperiores ipsa, reprehenderit error dolores, minima ad quasi consectetur fugiat, minus ratione aliquam placeat repellendus. Cumque provident asperiores autem tempore suscipit?"}
                         />
                         <InsideSlider1
@@ -81,6 +82,8 @@ export default function Clients() {
                         />
                     </ul>
                 </div>
+
+                <button className='btn dark-btn view-more'><Link to="/Allclients">View More clients</Link></button>
             </div>
         </>
     )

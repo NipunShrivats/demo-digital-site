@@ -45,6 +45,12 @@ a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    transition: 0.5s;
+
+}
+
+.btn:hover {
+    background: #cfcfcf;
 
 }
 
@@ -52,6 +58,12 @@ a {
     /* background: #212EA0; */
     background: var(--theme-color-bg);
     color: white;
+    transition: 0.5s;
+}
+
+.btn.dark-btn:hover {
+    /* background: #212EA0; */
+    background: rgb(243, 87, 87);
 }
 
 .btn span {
