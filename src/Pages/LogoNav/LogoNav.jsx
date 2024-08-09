@@ -17,8 +17,7 @@ export default function Nav() {
     return (
         <>
             <div className={`nav container`}>
-                <div>
-
+                <div className='NavLogoCover'>
                     <Link to="/"><img src={logow} alt="" /></Link>
                 </div>
                 <span><RxHamburgerMenu className='menu-icon' onClick={toggleMenu} /></span>
