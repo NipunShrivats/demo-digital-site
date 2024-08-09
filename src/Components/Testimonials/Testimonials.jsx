@@ -1,86 +1,44 @@
 import React, { useRef } from 'react'
+import { Link } from "react-router-dom"
+
 import './TestimonialsStyle.css'
-import { FaArrowRight } from "react-icons/fa";
-import { FaArrowLeft } from "react-icons/fa";
+import PlayIcon from "../../assets/imgAssets/play-icon-red.png"
+import clientImage1 from "../../assets/imgAssets/client-review1.png"
+import clientImage2 from "../../assets/imgAssets/client-review2.png"
+// import clientImage3 from "../../assets/imgAssets/client-review1.png"
+import review1 from "../../assets/imgAssets/reviewSS1.jpg"
+import review2 from "../../assets/imgAssets/reviewSS2.jpg"
 
-import user_1 from "../../assets/imgAssets/user-1.png"
-import user_2 from "../../assets/imgAssets/user-2.png"
-import user_3 from "../../assets/imgAssets/user-3.png"
-import user_4 from "../../assets/imgAssets/user-4.png"
-
-function InsideSlider(props) {
-    const { userImage, userName, userLocation, userReview } = props
-    return (
-        <li>
-            <div className='slide'>
-                <div className='user-info'>
-                    <img src={userImage} alt="" />
-                    <div>
-                        <h3>{userName}</h3>
-                        <span>{userLocation}</span>
-                    </div>
-                </div>
-                <p>{userReview}</p>
-            </div>
-        </li>
-    )
-}
 
 
 export default function Testimonials() {
-
-    const slider = useRef();
-    let tx = 0;
-
-    const slidePrev = () => {
-        if (tx < 0) {
-            tx += 25;
-        }
-        slider.current.style.transform = `translateX(${tx}%)`;
-    }
-
-    const slideNext = () => {
-        if (tx > -50) {
-            tx -= 25;
-        }
-        slider.current.style.transform = `translateX(${tx}%)`;
-    }
-
     return (
         <>
             <div className='testimonials'>
-                {/* buttons */}
-                <button className='prev-btn' onClick={slidePrev}><FaArrowLeft /></button>
-                <button className='next-btn' onClick={slideNext}><FaArrowRight /></button>
-
-                <div className='slider'>
-                    <ul ref={slider}>
-                        <InsideSlider
-                            userImage={user_1}
-                            userName={"Liza Chauhan"}
-                            userLocation={"California, USA"}
-                            userReview={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab asperiores ipsa, reprehenderit error dolores, minima ad quasi consectetur fugiat, minus ratione aliquam placeat repellendus. Cumque provident asperiores autem tempore suscipit?"}
-                        />
-                        <InsideSlider
-                            userImage={user_2}
-                            userName={"Simit Vyas"}
-                            userLocation={"New Delhi, India"}
-                            userReview={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab asperiores ipsa, reprehenderit error dolores, minima ad quasi consectetur fugiat, minus ratione aliquam placeat repellendus. Cumque provident asperiores autem tempore suscipit?"}
-                        />
-                        <InsideSlider
-                            userImage={user_3}
-                            userName={"Chameli Rana"}
-                            userLocation={"Lucknow, UP"}
-                            userReview={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab asperiores ipsa, reprehenderit error dolores, minima ad quasi consectetur fugiat, minus ratione aliquam placeat repellendus. Cumque provident asperiores autem tempore suscipit?"}
-                        />
-                        <InsideSlider
-                            userImage={user_4}
-                            userName={"Sam Bahadur"}
-                            userLocation={"Patiyala, Punjab"}
-                            userReview={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab asperiores ipsa, reprehenderit error dolores, minima ad quasi consectetur fugiat, minus ratione aliquam placeat repellendus. Cumque provident asperiores autem tempore suscipit?"}
-                        />
-                    </ul>
+                <div className="section1">
+                    <div className='ele'>
+                        <img src={clientImage1} alt="" className='img' />
+                        <img src={PlayIcon} alt="" className='playIcon' />
+                    </div>
+                    <div className='ele'>
+                        <img src={clientImage2} alt="" className='img' />
+                        {/* <Link to="" className='playIconLink'> */}
+                        <img src={PlayIcon} alt="" className='playIcon' />
+                        {/* </Link> */}
+                    </div>
+                    <div className='ele'>
+                        <img src={clientImage1} alt="" className='img' />
+                        <img src={PlayIcon} alt="" className='playIcon' />
+                    </div>
                 </div>
+                {/* <div className="section2">
+                    <div className='ele'>
+                        <img src={review1} alt="" className='img' />
+                    </div>
+                    <div className='ele'>
+                        <img src={review2} alt="" className='img' />
+                    </div>
+                </div> */}
             </div>
         </>
     )
