@@ -1,4 +1,6 @@
 import * as React from 'react';
+import "./CardStyle.css"
+
 import { styled } from '@mui/material/styles';
 import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
@@ -46,12 +48,18 @@ export default function RecipeReviewCard(props) {
                         {firstAlphabet}
                     </Avatar>
                 }
+                action={
+                    <Link to={to} target='blank_'>
+                        <RiInstagramFill className='instaIcon' />
+                    </Link>
+                }
                 title={name}
                 subheader={username}
             />
+
             <CardMedia
                 component="img"
-                height="194"
+                height="196"
                 image={image}
                 alt="Paella dish"
             />
@@ -60,9 +68,9 @@ export default function RecipeReviewCard(props) {
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut harum fugit accusamus tenetur et voluptate necessitatibus ex assumenda, recusandae commodi!
                 </Typography>
             </CardContent>
-            <CardActions disableSpacing>
+            {/* <CardActions disableSpacing>
                 <IconButton aria-label="share">
-                    <Link to={to}>
+                    <Link to={to} target='blank_'>
                         <RiInstagramFill />
                     </Link>
                 </IconButton>
@@ -103,7 +111,7 @@ export default function RecipeReviewCard(props) {
                         Set aside off of the heat to let rest for 10 minutes, and then serve.
                     </Typography>
                 </CardContent>
-            </Collapse>
+            </Collapse> */}
         </Card>
     );
 }
