@@ -8,7 +8,7 @@ import client3 from "../../assets/clientHandles/client3.jpg"
 import client4 from "../../assets/clientHandles/client4.jpg"
 
 import Card from '../../Components/Card/Card'
-import { TbBackground } from 'react-icons/tb'
+// import { TbBackground } from 'react-icons/tb'
 // function InsideSlider1(props) {
 //     const { clientImage, userName, userLocation, userReview } = props
 //     return (
@@ -54,7 +54,7 @@ export default function Clients() {
                         to={"https://www.instagram.com/virendersharmababa_ji/?hl=en"}
                     />
                 </div>
-                {/* <button className='btn dark-btn'><Link to={"/clients/Allclients"}>View More Clients</Link> </button> */}
+                <button className='btn dark-btn'><Link to={"/clients/AllClients"}>View More Clients</Link> </button>
             </div>
         </>
     )
