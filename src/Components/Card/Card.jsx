@@ -40,7 +40,7 @@ export default function RecipeReviewCard(props) {
             />
             <CardContent>
                 <Typography variant="body2" color="text.secondary">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut harum fugit accusamus tenetur et voluptate necessitatibus ex assumenda, recusandae commodi!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere maxime assumenda pariatur laudantium, temporibus dolore ullam voluptatem eveniet dolorum, quis maiores consequatur quibusdam. Aut, porro atque. Possimus nisi reiciendis sequi.
                 </Typography>
             </CardContent>
         </Card>
