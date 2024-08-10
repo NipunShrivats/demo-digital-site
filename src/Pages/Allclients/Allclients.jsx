@@ -39,7 +39,6 @@ export default function Allclients() {
                         image={client3}
                         to={"https://www.instagram.com/virendersharmababa_ji/?hl=en"}
                     />
-
                 </div>
             </div>
         </>
