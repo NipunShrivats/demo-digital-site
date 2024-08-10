@@ -4,7 +4,7 @@ import logow from "../../assets/imgAssets/Logow.png"
 import "./LogoNavStyle.css"
 import { Link } from "react-router-dom"
 import { RxHamburgerMenu } from "react-icons/rx";
-
+import MenuIcon from "../../assets/imgAssets/menu-icon.png"
 
 export default function Nav() {
 
@@ -18,9 +18,10 @@ export default function Nav() {
         <>
             <div className={`nav container`}>
                 <div className='NavLogoCover'>
-                    <Link to="/"><img src={logow} alt="" /></Link>
+                    <Link to="/"><img src={logow} className="img" alt="" /></Link>
                 </div>
-                <span><RxHamburgerMenu className='menu-icon' onClick={toggleMenu} /></span>
+                {/* <span><RxHamburgerMenu className='menu-icon' onClick={toggleMenu} /></span> */}
+                <img src={MenuIcon} alt="" className='menu-icon' onClick={toggleMenu} />
                 <div className='top-links'>
                     <ul className={`top-links-ul ${mobileMenu ? "" : "hide-mobile-menu"}`}>
                         <Link to={"/"}><li>Home</li ></Link>

@@ -6,6 +6,8 @@ import logob from "../../assets/imgAssets/logo-black.png"
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
 import { RxHamburgerMenu } from "react-icons/rx";
 
+import MenuIcon from "../../assets/imgAssets/menu-icon.png"
+
 export default function Navbar() {
 
     const [sticky, setSticky] = useState(false);
@@ -34,7 +36,8 @@ export default function Navbar() {
                     </div>
 
                 </div>
-                <span><RxHamburgerMenu className='menu-icon' onClick={toggleMenu} /></span>
+                {/* <span><RxHamburgerMenu className='menu-icon' onClick={toggleMenu} /></span> */}
+                <img src={MenuIcon} alt="" className='menu-icon' onClick={toggleMenu} />
                 <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
                     <li><Link to='hero'
                         smooth={true}

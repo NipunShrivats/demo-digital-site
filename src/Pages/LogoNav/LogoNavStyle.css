@@ -26,7 +26,7 @@
     transition: .5s;
 }
 
-.nav img:hover {
+.nav .img:hover {
     scale: 105%;
 }
 
@@ -67,7 +67,8 @@
 }
 
 @media(max-width:800px) {
-    .nav img {
+    .nav .NavLogoCover img {
+        margin-top: .2rem;
         width: 10rem;
     }
 
@@ -98,22 +99,24 @@
         font-size: .8rem;
     }
 
+
+
     .nav .menu-icon {
         position: absolute;
         display: flex;
-        width: 30px;
+        width: 2.3rem;
+        top: 1.06rem;
+        right: 1.2rem;
         cursor: pointer;
-        z-index: 1000;
-        /* border: 2px solid red; */
-        top: 1.5rem;
-        right: 1rem;
-        color: white;
-        transition: .3s;
-        font-size: 2rem;
+        /* z-index: 1000; */
+        color: #fff;
+        border: 2px solid white;
+        padding: .4rem;
+        border-radius: .4rem;
     }
 
     .nav .menu-icon:hover {
-        scale: 1.1;
+        background-color: grey;
     }
 
     .hide-mobile-menu {

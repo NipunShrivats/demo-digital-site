@@ -146,9 +146,13 @@ nav span {
 
     .menu-icon {
         display: block;
-        width: 30px;
+        width: 2.3rem;
         cursor: pointer;
         /* z-index: 1000; */
+        color: #fff;
+        border: 2px solid white;
+        padding: .4rem;
+        border-radius: .4rem;
     }
 
     .hide-mobile-menu {

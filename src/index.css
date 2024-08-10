@@ -9,6 +9,10 @@
     --theme-color-input: rgb(255, 235, 235);
 }
 
+svg {
+    color: white;
+}
+
 * {
     padding: 0px;
     margin: 0px;
