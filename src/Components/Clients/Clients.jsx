@@ -54,7 +54,7 @@ export default function Clients() {
                         to={"https://www.instagram.com/virendersharmababa_ji/?hl=en"}
                     />
                 </div>
-                <button className='btn dark-btn'><Link to={"/clients/Allclients"}>View More Clients</Link> </button>
+                {/* <button className='btn dark-btn'><Link to={"/clients/Allclients"}>View More Clients</Link> </button> */}
             </div>
         </>
     )

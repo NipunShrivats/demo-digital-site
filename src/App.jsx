@@ -27,7 +27,7 @@ export default function App() {
           <Route path='/services/videoediting' exact={true} element={<VideoEditing />} />
           <Route path='/services/socialmediamanagement' exact={true} element={<SocialMediaManagement />} />
           <Route path='/services/brandpromotion' exact={true} element={<BrandPromotion />} />
-          <Route path='/clients/Allclients' exact={true} element={<AllClients />} />
+          {/* <Route path='/clients/Allclients' exact={true} element={<AllClients />} /> */}
         </Routes>
         <div className='container'>
           <Footer />
