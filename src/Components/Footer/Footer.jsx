@@ -2,24 +2,22 @@ import React from 'react';
 import './FooterStyle.css';
 import { Link } from "react-router-dom";
 
+import { FaSquareInstagram } from "react-icons/fa6";
+import { FaFacebookSquare } from "react-icons/fa";
+import { IoLogoYoutube } from "react-icons/io";
+
 export default function Footer() {
     return (
         <>
             <div className='footer'>
                 <div className='foot1'>
-
-                    {/* <h4>Serch Services</h4> */}
-                    <ul>
-                        <Link to="/"><li>Home</li></Link>
-                        <Link to="/servies/seo"><li>S.E.O</li></Link>
-                        <Link to="/services/webdesigning"><li>Web Designing</li></Link>
-                        <Link to="/services/graphicdesigning"><li>Graphic Designing</li></Link>
-                        <Link to="/services/videoediting"><li>Video Editing</li></Link>
-                        <Link to="/services/socialmediamanagement"><li>Social Media Management</li></Link>
-                        <Link to="/services/brandpromotion"><li>Brand Promotion</li></Link>
+                    <div className='foot1-1'>
+                        <Link to="https://www.instagram.com/sensationzdigital/" target="_blank"><li><FaSquareInstagram className='social' /></li></Link>
+                        <Link to="https://www.facebook.com/people/Sensationz-Digital/61557248046281/" target="_blank"><li><FaFacebookSquare className='social' /></li></Link>
+                    </div>
+                    <div className='foot1-2'>
                         <Link to="/PrivacyPolicy"><li className='privacy'>Privacy Policy</li></Link>
-                        {/* <Link ></Link> */}
-                    </ul>
+                    </div>
                 </div>
                 {/* <hr /> */}
                 <div className="foot2">

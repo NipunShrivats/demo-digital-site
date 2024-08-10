@@ -6,6 +6,7 @@
     /* height: 20rem; */
     margin-bottom: 0px;
     text-align: center;
+    /* background-color: #676767; */
 }
 
 .clients .next-btn-c,
@@ -13,7 +14,7 @@
     border: none;
     background-color: var(--theme-color-bg);
     position: absolute;
-    top: 50%;
+    top: 40%;
     /* margin: 50px; */
     padding: 15px;
     cursor: pointer;
@@ -24,11 +25,18 @@
     transition: 0.3s;
     /* display: flex; */
     color: white;
+    /* width: 2rem; */
 }
 
-.next-btn-c:hover,
-.prev-btn-c:hover {
-    background-color: var(--theme-color-highlight2);
+.clients .next-btn-c img,
+.clients .prev-btn-c img {
+    width: 1rem;
+    /* border: 2px solid white; */
+}
+
+.clients .next-btn-c:hover,
+.clients .prev-btn-c:hover {
+    background-color: var(--theme-color-highlight1);
     /* background-color: rgb(95, 95, 95); */
     /* color: white; */
 }

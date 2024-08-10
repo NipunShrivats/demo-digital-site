@@ -9,6 +9,9 @@ import client2 from "../../assets/imgAssets/client2.jpg"
 import client3 from "../../assets/imgAssets/client3.jpg"
 import client4 from "../../assets/imgAssets/client4.jpg"
 
+import leftBtn from "../../assets/imgAssets/left-arrow.png";
+import rightBtn from "../../assets/imgAssets/right-arrow.png";
+
 function InsideSlider1(props) {
     const { clientImage, userName, userLocation, userReview } = props
     return (
@@ -51,8 +54,11 @@ export default function Clients() {
         <>
             <div className='clients'>
                 {/* buttons */}
-                <button className='prev-btn-c' onClick={slidePrev}><FaArrowLeft /></button>
-                <button className='next-btn-c' onClick={slideNext}><FaArrowRight /></button>
+                {/* <button className='prev-btn-c' onClick={slidePrev}><FaArrowLeft /></button>
+                <button className='next-btn-c' onClick={slideNext}><FaArrowRight /></button> */}
+
+                <button className='prev-btn-c' onClick={slidePrev}><img src={leftBtn} alt="" /></button>
+                <button className='next-btn-c' onClick={slideNext}><img src={rightBtn} alt="" /></button>
 
                 <div className='slider-c'>
                     <ul ref={slider}>

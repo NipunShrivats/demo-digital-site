@@ -3,6 +3,7 @@
 :root {
     --theme-color-bg: rgba(227, 15, 14, 1);
     --theme-color-highlight: rgba(227, 15, 14, 1);
+    --theme-color-highlight1: rgb(230, 78, 78);
     --theme-color-highlight2: rgba(53, 11, 11, 0.416);
     --theme-color-highlight3: rgba(23, 5, 0, 0.372);
     --theme-color-highlight4: rgba(33, 1, 1, 0.454);

@@ -4,19 +4,10 @@
     margin: 10px auto;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
-    /* justify-content: space-between; */
+    align-items: center;
+    justify-content: center;
     border-top: 1px solid #797979;
     padding-top: 1rem;
-}
-
-.footer .foot1 {
-    /* border: 2px solid red; */
-    color: black;
-    margin: 10px auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .footer .foot2 {
@@ -26,41 +17,47 @@
     justify-content: center;
 }
 
-.footer ul li {
-    display: inline-block;
-    margin-left: 20px;
-    cursor: pointer;
-    border: 2px solid transparent;
-    transition: 0.2s;
+.footer .foot1 {
+    text-align: center;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 12rem;
+    margin-bottom: .6rem;
+}
+
+.footer .foot1 .foot1-1 {
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 1rem;
+}
+
+.footer .foot1 .foot1-1 .social {
+    font-size: 1.5rem;
+}
+
+.footer .foot1 .foot1-2 {
+    /* border: 2px solid red; */
+}
+
+.footer .foot1 .foot1-2 .privacy {
+    font-size: 1rem;
+    color: red;
+}
+
+.footer .foot1 .foot1-2 .privacy:hover {
     color: black;
-    padding-bottom: 0.2rem;
-
 }
 
-.footer ul li:hover {
-    border-bottom: 1px solid red;
-    color: red;
-}
 
-.footer .foot1 .privacy {
-    color: red;
-}
 
 /* ------------- media query ------------- */
 
 @media(max-width:800px) {
     .footer {
-        display: block;
+        /* display: block; */
         text-align: center;
         font-size: 14px;
-    }
-
-    .footer ul li {
-        margin: 10px;
-
-    }
-
-    .footer ul {
-        margin-top: 10px;
     }
 }
