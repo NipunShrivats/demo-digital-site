@@ -32,7 +32,7 @@
 
 .testimonials .section1 .ele .img {
     width: 18rem;
-    border-radius: 1rem;
+    border-radius: .2rem;
     box-shadow: 1px 2px 6px var(--theme-color-highlight);
 }
 
