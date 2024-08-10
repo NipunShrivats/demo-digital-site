@@ -1,13 +1,65 @@
 import React from 'react'
 import "./ClientDataStyle.css"
 
+import Card from "../../Components/Card/Card"
+
 import Nav from "../LogoNav/LogoNav";
+import client1 from "../../assets/clientHandles/client1.jpg"
+import client2 from "../../assets/clientHandles/client2.jpg"
+import client3 from "../../assets/clientHandles/client3.jpg"
+import client4 from "../../assets/clientHandles/client4.jpg"
 
 export default function ClientData() {
     return (
         <>
             <Nav />
-            <div>ClientData</div>
+            <div className="container clientData">
+                <h1>More of out clients</h1>
+                <div className='clientBox1'>
+                    <Card
+                        firstAlphabet={"S"}
+                        name={"Shveta Sharma"}
+                        username={"@ahaana_holistichealing"}
+                        image={client1}
+                        to={"https://www.instagram.com/ahaana_holistichealing/"}
+                    />
+                    <Card
+                        firstAlphabet={"N"}
+                        name={"Naira Sri"}
+                        username={"@cutiekuhoo"}
+                        image={client2}
+                        to={"https://www.instagram.com/cutiekuhoo/"}
+                    />
+                    <Card
+                        firstAlphabet={"V"}
+                        name={"Virender Sharma"}
+                        username={"@virendersharmababa_ji"}
+                        image={client3}
+                        to={"https://www.instagram.com/virendersharmababa_ji/?hl=en"}
+                    />
+                    <Card
+                        firstAlphabet={"V"}
+                        name={"Virender Sharma"}
+                        username={"@virendersharmababa_ji"}
+                        image={client3}
+                        to={"https://www.instagram.com/virendersharmababa_ji/?hl=en"}
+                    />
+                    <Card
+                        firstAlphabet={"V"}
+                        name={"Virender Sharma"}
+                        username={"@virendersharmababa_ji"}
+                        image={client3}
+                        to={"https://www.instagram.com/virendersharmababa_ji/?hl=en"}
+                    />
+                    <Card
+                        firstAlphabet={"V"}
+                        name={"Virender Sharma"}
+                        username={"@virendersharmababa_ji"}
+                        image={client3}
+                        to={"https://www.instagram.com/virendersharmababa_ji/?hl=en"}
+                    />
+                </div>
+            </div>
         </>
     )
 }
