@@ -48,12 +48,12 @@
     border: 2px solid transparent;
     transition: 0.2s;
     padding: .3rem 0rem;
-    /* transition: .5s; */
+    transition: .5s;
 }
 
 .nav .top-links .top-links-ul li:hover {
     /* border-bottom: 2px solid white; */
-    color: black;
+    color: rgb(187, 187, 187);
 }
 
 .nav .menu-icon {
