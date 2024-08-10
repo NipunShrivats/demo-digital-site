@@ -1,7 +1,13 @@
 import React from 'react'
+import "./DataStyle.css"
+
+import Nav from "../LogoNav/LogoNav";
 
 export default function Data() {
     return (
-        <div>Data</div>
+        <>
+            <Nav />
+            <div>AllClients</div>
+        </>
     )
 }
