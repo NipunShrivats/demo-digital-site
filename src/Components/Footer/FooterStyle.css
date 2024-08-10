@@ -44,6 +44,7 @@
 .footer .foot1 .foot1-2 .privacy {
     font-size: 1rem;
     color: red;
+    transition: .5s;
 }
 
 .footer .foot1 .foot1-2 .privacy:hover {
