@@ -10,6 +10,7 @@ import VideoEditing from './Pages/AllServices/VideoEditing/VideoEditing'
 import SocialMediaManagement from './Pages/AllServices/SocialMediaManagement/SocialMediaManagement'
 import BrandPromotion from './Pages/AllServices/BrandPromotion/BrandPromotion'
 // import AllClients from "./Pages/AllClients/AllClients";
+import Data from "./Pages/Data/Data";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -27,6 +28,7 @@ export default function App() {
           <Route path='/services/videoediting' exact={true} element={<VideoEditing />} />
           <Route path='/services/socialmediamanagement' exact={true} element={<SocialMediaManagement />} />
           <Route path='/services/brandpromotion' exact={true} element={<BrandPromotion />} />
+          <Route path='/Data' exact={true} element={<Data />} />
           {/* <Route path='/clients/AllClients' exact={true} element={<AllClients />} /> */}
         </Routes>
         <div className='container'>
