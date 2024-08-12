@@ -10,7 +10,6 @@ import { red } from '@mui/material/colors';
 import { Link } from "react-router-dom";
 import { RiInstagramFill } from "react-icons/ri";
 
-
 export default function RecipeReviewCard(props) {
 
     const { firstAlphabet, name, username, image, to } = props;
