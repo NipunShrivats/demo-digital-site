@@ -47,7 +47,7 @@ export default function CardTest(props) {
                 <Typography variant="body2">
                     {test} <br />
                 </Typography>
-                <span className='quote-name'>--{name}</span>
+                <span className='quote-name'>— {name}</span>
                 <span className='coma comaR'><RiDoubleQuotesR /></span>
 
             </CardContent>
