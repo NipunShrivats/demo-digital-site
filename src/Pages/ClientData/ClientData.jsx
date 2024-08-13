@@ -20,8 +20,8 @@ export default function ClientData() {
     return (
         <>
             <Nav />
-            <div className="container clientData">
-                <h1>More of out clients</h1>
+            <div className="clientData">
+                <h1 className='container '>More of out clients</h1>
                 <div className='clientBox1'>
                     <Card
                         firstAlphabet={"G"}
