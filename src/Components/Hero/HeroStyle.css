@@ -35,6 +35,8 @@
 .hero-text .last-line {}
 
 .hero-text h3 {
+    margin-top: .8rem;
+    /* border: 2px solid white; */
     text-transform: capitalize;
     color: #ffffff;
 }
