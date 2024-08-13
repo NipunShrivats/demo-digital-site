@@ -54,4 +54,30 @@
         order: 2;
         /* order will determine order of image  */
     }
+
+    .about-right {
+        /* border: 2px solid red; */
+    }
+
+    .about-right h3 {
+        /* border: 2px solid red; */
+        text-align: center;
+    }
+
+    .about-right h2 {
+        /* border: 2px solid red; */
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .about-right p {
+        /* border: 2px solid red; */
+        text-align: center;
+        font-size: .8rem;
+    }
+
+    .about-img {
+        width: 100%;
+        border-radius: 5px;
+    }
 }

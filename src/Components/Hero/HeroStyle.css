@@ -24,23 +24,18 @@
 }
 
 .hero-text h1 {
-    /* border: 2px solid red; */
+    /* border: 2px solid white; */
     font-size: 4.7rem;
     font-weight: 600;
     color: #ffffff;
     width: 100%;
+    text-transform: capitalize;
 }
 
-.hero-text .last-line {
-    /* border: 2px solid red; */
-    font-size: 4.7rem;
-    font-weight: 600;
-    color: #ffffff;
-    width: 55rem;
-}
+.hero-text .last-line {}
 
 .hero-text h3 {
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #ffffff;
 }
 
@@ -62,24 +57,14 @@
 
 @media(max-width:850px) {
     .hero-text h1 {
-        font-size: 30px;
+        font-size: 4rem;
     }
 }
 
-@media(max-width:650px) {
+@media(max-width:680px) {
     .hero-text h1 {
         font-size: 2.5rem;
-        max-width: 400px;
-        margin: auto;
-    }
-
-    .hero-text .last-line {
-        /* border: 2px solid red; */
-        font-size: 2.5rem;
-        font-weight: 600;
-        color: #ffffff;
-        width: 20rem;
-        /* border: 2px solid red; */
+        /* margin: 0rem 10rem; */
     }
 
     .hero-text p {
@@ -88,6 +73,11 @@
         max-width: 300px;
         margin: 15px auto 30px;
     }
+}
 
-
+@media(max-width:680px) {
+    .hero-text h1 {
+        font-size: 2rem;
+        /* margin: 0rem 10rem; */
+    }
 }

@@ -58,12 +58,12 @@ export default function Home() {
                             <About setPlayState={setPlayState} />
                         </div>
 
-                        <div className='container'>
+                        <div className=''>
                             <Title title={"clients"} subtitle={"Whom we have worked for?"} />
                             <Clients />
                         </div>
 
-                        <div className='container'>
+                        <div className=''>
                             <Title title={"testimonials"} subtitle={"what client says?"} />
                             <Testimonials />
                         </div>

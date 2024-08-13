@@ -85,4 +85,8 @@
     .contact-col {
         padding: 20px;
     }
+
+    .contact-col div {
+        text-align: center;
+    }
 }
