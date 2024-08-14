@@ -1,13 +1,13 @@
 .main-box {
     /* border: 2px solid red; */
     margin: 6rem 3rem;
-    padding: 4rem;
+    padding: 1rem 0rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    background-color: rgb(255, 242, 242);
+    /* background-color: rgb(255, 242, 242); */
 }
 
 .main-box .main-box-title {
