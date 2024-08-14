@@ -7,18 +7,33 @@
     gap: 3rem;
 }
 
-@media(max-width:800px) {
+.leftBlock {
+
+    /* border: 2px solid red; */
+}
+
+.rightBlock {
+    /* border: 2px solid red; */
+    width: 50rem;
+}
+
+@media(max-width:1200px) {
     .mainBlock {
         margin: 2rem 3rem;
     }
 
     .leftBlock img {
-        width: 15rem;
+        width: 25rem;
+    }
+
+    .leftBlock {
+        order: 2;
     }
 
     .rightBlock {
         /* border: 2px solid red; */
-        width: 150%;
+        width: 100%;
+        order: 1;
     }
 
     .rightBlock h1 {
@@ -47,4 +62,15 @@
         gap: 3rem;
     }
 
+}
+
+@media(max-width:450px) {
+    .rightBlock {
+        /* border: 2px solid red; */
+        width: 150%;
+    }
+
+    .leftBlock img {
+        width: 15rem;
+    }
 }

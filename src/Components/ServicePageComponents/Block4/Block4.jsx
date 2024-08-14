@@ -8,15 +8,22 @@ import { IoAccessibilitySharp } from "react-icons/io5";
 import { BiSupport } from "react-icons/bi";
 
 
-function Element({ icon, heading, data }) {
+function Element1({ icon, heading, data }) {
     return (
-        <>
-            <div className='element'>
-                <span className='icon'>{icon}</span>
-                <h4 className='heading'>{heading}</h4>
-                <p className='data'>{data}</p>
-            </div>
-        </>
+        <div className='element element1 '>
+            <span className='icon'>{icon}</span>
+            <h4 className='heading'>{heading}</h4>
+            <p className='data'>{data}</p>
+        </div>
+    )
+}
+function Element2({ icon, heading, data }) {
+    return (
+        <div className='element element2'>
+            <span className='icon'>{icon}</span>
+            <h4 className='heading'>{heading}</h4>
+            <p className='data'>{data}</p>
+        </div>
     )
 }
 
@@ -30,25 +37,25 @@ export default function Block4() {
                 </div>
 
                 <div className='main-box-inside1'>
-                    <Element
+                    <Element1
                         icon={<MdOutlineElderlyWoman />}
                         heading={"Experience"}
                         data={"Your Gateway to Digital Mastery. Unlock unparalleled expertise and propel your online presence to new heights"} />
-                    <Element
+                    <Element1
                         icon={<VscWorkspaceTrusted />}
                         heading={"Trusted Company"}
                         data={"Where Reliability Meets Excellence. Count on us for steadfast support and unwavering commitment to your digital success"} />
-                    <Element
+                    <Element1
                         icon={<FaPeopleGroup />}
                         heading={"Good Teamwork"}
                         data={"Good Teamwork: Collaboration Fuels Innovation. Together, we achieve greatness, surpassing expectations with synergy and cohesion"} />
                 </div>
                 <div className='main-box-inside2'>
-                    <Element
+                    <Element2
                         icon={<IoAccessibilitySharp />}
                         heading={"Creative"}
                         data={"Where Imagination Meets Strategy. Embrace innovation and unleash the power of creativity with us."} />
-                    <Element
+                    <Element2
                         icon={<BiSupport />}
                         heading={"Support 24/7"}
                         data={"Your Digital Lifeline Anytime, Anywhere. Rest easy knowing our dedicated team is always here to assist you"} />

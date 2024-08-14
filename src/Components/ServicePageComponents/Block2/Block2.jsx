@@ -7,7 +7,7 @@ export default function Block2({ quote }) {
         <>
             <div className="container ">
                 <div className='box'>
-                    <h2>{quote}</h2>
+                    <h3>{quote}</h3>
                     <Link to="/">
                         <button className='btn '>
                             back to home
