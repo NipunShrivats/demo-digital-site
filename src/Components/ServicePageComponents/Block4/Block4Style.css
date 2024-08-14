@@ -98,6 +98,9 @@
 
 
 @media(max-width:1300px) {
+    .main-box {
+        margin: 2rem 3rem;
+    }
 
     .main-box-inside1 .element1 {
         width: 21rem;

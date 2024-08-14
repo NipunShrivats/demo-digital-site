@@ -20,7 +20,7 @@
 
 .nav .NavLogoCover img {
     width: 13rem;
-    /* border: 2px solid red; */
+    /* border: 2px solid white; */
     transition: .5s;
 }
 
@@ -80,9 +80,9 @@
 @media(max-width:1000px) {
 
     .nav .NavLogoCover img {
-        margin-top: .2rem;
+        margin-top: .5rem;
         width: 10rem;
-        padding-bottom: 0px;
+        margin-bottom: -.6rem;
     }
 
     .nav .top-links .top-links-ul {
