@@ -30,7 +30,7 @@ function Element2({ icon, heading, data }) {
 export default function Block4() {
     return (
         <>
-            <div className='container main-box'>
+            <div className='container main-box stiff-block'>
                 <div className='main-box-title'>
                     <h4 className='choose'>Why Choose Us</h4>
                     <h1>why are we your solution?</h1>

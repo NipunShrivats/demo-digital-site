@@ -13,7 +13,7 @@ import CardTest from '../../Components/CardTest/CardTest'
 export default function Testimonials() {
     return (
         <>
-            <div className='testimonials'>
+            <div className='testimonials stiff-block'>
                 <div className="section1">
                     <CardTest
                         firstAlphabet={"A"}

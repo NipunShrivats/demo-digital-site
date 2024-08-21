@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 export default function Block2({ quote }) {
     return (
         <>
-            <div className="container ">
+            <div className="container stiff-block">
                 <div className='box'>
                     <h3>{quote}</h3>
                     <Link to="/">

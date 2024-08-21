@@ -42,7 +42,7 @@ export default function ClientList() {
     const [toggle, setToggle] = useState(true);
     return (
         <>
-            <div className='ClientList'>
+            <div className='ClientList stiff-block'>
 
                 <div className='clientListContainer'>
 

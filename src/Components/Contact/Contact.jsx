@@ -35,7 +35,7 @@ export default function Contact() {
 
     return (
         <>
-            <div className='contact'>
+            <div className='contact stiff-block'>
                 <div className="contact-col">
                     <h3>Send a message <img src={msg_icon} alt="" /></h3>
                     <p>Feel fre to reach out through contact form or find our conact information below. your feedback, questions, and suggestions are important to us as we strive to provide exceptional service to our members.</p>

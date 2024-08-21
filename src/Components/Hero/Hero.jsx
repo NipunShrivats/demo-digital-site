@@ -8,7 +8,7 @@ export default function Hero() {
     return (
         <>
             <div className='hero container'>
-                <div className='hero-text'>
+                <div className='hero-text hero-block'>
                     <h1>welcome</h1>
                     <h3>to</h3>
                     <h1 className='last-line'>sensationz digital</h1>

@@ -5,7 +5,7 @@ import { TiTick } from "react-icons/ti";
 export default function Block3({ block3Title, block3para, li1, li2, li3, rightImg }) {
     return (
         <>
-            <div className='container box1'>
+            <div className='container box1 stiff-block'>
                 <div className='left'>
                     <h1>{block3Title}</h1>
                     <p>{block3para}</p>

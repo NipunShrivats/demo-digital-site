@@ -4,7 +4,7 @@ import "./Block1Style.css";
 export default function Block1({ leftImg, title, para1, para2 }) {
     return (
         <>
-            <div className="container mainBlock">
+            <div className="container mainBlock stiff-block">
 
                 <div className='leftBlock'>
                     <img src={leftImg} alt="" />

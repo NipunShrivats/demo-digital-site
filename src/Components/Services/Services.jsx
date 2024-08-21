@@ -20,7 +20,7 @@ function Service(props) {
     const { img, to, capImg, caption } = props;
     return (
         <>
-            <div className='service'>
+            <div className='service stiff-block'>
                 <img src={img} alt="" />
                 <Link to={to}>
                     <div className='caption'>
