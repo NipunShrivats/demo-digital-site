@@ -51,7 +51,7 @@ export default function Navbar() {
                         smooth={true}
                         offset={-240}
                         durastion={500}>About Us</Link></li>
-                    <li><Link to='clients'
+                    <li><Link to='ClientList'
                         smooth={true}
                         offset={-230}
                         durastion={500}>Clients</Link></li>

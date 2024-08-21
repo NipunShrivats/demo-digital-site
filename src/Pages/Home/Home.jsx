@@ -12,6 +12,7 @@ import Testimonials from '../../Components/Testimonials/Testimonials'
 import VideoPlayer from '../../Components/VideoPlayer/VideoPlayer'
 
 import BeatLoader from "react-spinners/BeatLoader";
+import ClientList from '../../Components/ClientList/ClientList'
 
 
 export default function Home() {
@@ -60,8 +61,9 @@ export default function Home() {
 
                         <div className='container'>
                             <Title title={"clients"} subtitle={"Whom we have worked for?"} />
+                            <ClientList />
+                            {/* <Clients /> */}
                         </div>
-                        <Clients />
 
                         <div className='container'>
                             <Title title={"testimonials"} subtitle={"what client says?"} />
