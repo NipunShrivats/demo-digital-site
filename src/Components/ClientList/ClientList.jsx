@@ -69,54 +69,55 @@ export default function ClientList() {
                                 name={"Glance Fire & Safety"}
                                 instaHandle={"@glanceenterprise"}
                             />
-                        </div>
 
-                        <div className={`client-box ${toggle ? "hidden-part" : "visible-part"}`}>
-                            <ClientListElement
-                                src={client5}
-                                name={"Suchitha joshi"}
-                                instaHandle={"@p5yoga_wellness"}
-                            />
-                            <ClientListElement
-                                src={client6}
-                                name={"Aiman Mehtab"}
-                                instaHandle={"@thetribeofhealing"}
-                            />
-                            <ClientListElement
-                                src={client7}
-                                name={"Durvam's Diary"}
-                                instaHandle={"@durvasumedha"}
-                            />
-                            <ClientListElement
-                                src={client8}
-                                name={"Dr. Mukesh Kumar"}
-                                instaHandle={"@urocaredrmukeshkumarvijay"}
-                            />
-                            <ClientListElement
-                                src={client9}
-                                name={"Adit Sinha"}
-                                instaHandle={"@aditsinhashow"}
-                            />
-                            <ClientListElement
-                                src={client10}
-                                name={"Avi Sinha"}
-                                instaHandle={"@avisinhashow"}
-                            />
-                            <ClientListElement
-                                src={client11}
-                                name={"Yuva 4 Life"}
-                                instaHandle={"@yuva4life.in"}
-                            />
-                            <ClientListElement
-                                src={client12}
-                                name={"Shveta sharma"}
-                                instaHandle={"@shvetazworld"}
-                            />
-                            <ClientListElement
-                                src={client13}
-                                name={"NUB'S"}
-                                instaHandle={"@nubs_nitika_"}
-                            />
+
+                            <div className={`client-box ${toggle ? "hidden-part" : "visible-part"}`}>
+                                <ClientListElement
+                                    src={client5}
+                                    name={"Suchitha joshi"}
+                                    instaHandle={"@p5yoga_wellness"}
+                                />
+                                <ClientListElement
+                                    src={client6}
+                                    name={"Aiman Mehtab"}
+                                    instaHandle={"@thetribeofhealing"}
+                                />
+                                <ClientListElement
+                                    src={client7}
+                                    name={"Durvam's Diary"}
+                                    instaHandle={"@durvasumedha"}
+                                />
+                                <ClientListElement
+                                    src={client8}
+                                    name={"Dr. Mukesh Kumar"}
+                                    instaHandle={"@urocaredrmukeshkumarvijay"}
+                                />
+                                <ClientListElement
+                                    src={client9}
+                                    name={"Adit Sinha"}
+                                    instaHandle={"@aditsinhashow"}
+                                />
+                                <ClientListElement
+                                    src={client10}
+                                    name={"Avi Sinha"}
+                                    instaHandle={"@avisinhashow"}
+                                />
+                                <ClientListElement
+                                    src={client11}
+                                    name={"Yuva 4 Life"}
+                                    instaHandle={"@yuva4life.in"}
+                                />
+                                <ClientListElement
+                                    src={client12}
+                                    name={"Shveta sharma"}
+                                    instaHandle={"@shvetazworld"}
+                                />
+                                <ClientListElement
+                                    src={client13}
+                                    name={"NUB'S"}
+                                    instaHandle={"@nubs_nitika_"}
+                                />
+                            </div>
                         </div>
                     </div>
 
@@ -144,54 +145,55 @@ export default function ClientList() {
                                 name={"Glance Fire & Safety"}
                                 instaHandle={"@glanceenterprise"}
                             />
-                        </div>
 
-                        <div className={`client-box ${toggle ? "hidden-part" : "visible-part"}`}>
-                            <ClientListElement
-                                src={client5}
-                                name={"Suchitha joshi"}
-                                instaHandle={"@p5yoga_wellness"}
-                            />
-                            <ClientListElement
-                                src={client6}
-                                name={"Aiman Mehtab"}
-                                instaHandle={"@thetribeofhealing"}
-                            />
-                            <ClientListElement
-                                src={client7}
-                                name={"Durvam's Diary"}
-                                instaHandle={"@durvasumedha"}
-                            />
-                            <ClientListElement
-                                src={client8}
-                                name={"Dr. Mukesh Kumar"}
-                                instaHandle={"@urocaredrmukeshkumarvijay"}
-                            />
-                            <ClientListElement
-                                src={client9}
-                                name={"Adit Sinha"}
-                                instaHandle={"@aditsinhashow"}
-                            />
-                            <ClientListElement
-                                src={client10}
-                                name={"Avi Sinha"}
-                                instaHandle={"@avisinhashow"}
-                            />
-                            <ClientListElement
-                                src={client11}
-                                name={"Yuva 4 Life"}
-                                instaHandle={"@yuva4life.in"}
-                            />
-                            <ClientListElement
-                                src={client12}
-                                name={"Shveta sharma"}
-                                instaHandle={"@shvetazworld"}
-                            />
-                            <ClientListElement
-                                src={client13}
-                                name={"NUB'S"}
-                                instaHandle={"@nubs_nitika_"}
-                            />
+
+                            <div className={`client-box ${toggle ? "hidden-part" : "visible-part"}`}>
+                                <ClientListElement
+                                    src={client5}
+                                    name={"Suchitha joshi"}
+                                    instaHandle={"@p5yoga_wellness"}
+                                />
+                                <ClientListElement
+                                    src={client6}
+                                    name={"Aiman Mehtab"}
+                                    instaHandle={"@thetribeofhealing"}
+                                />
+                                <ClientListElement
+                                    src={client7}
+                                    name={"Durvam's Diary"}
+                                    instaHandle={"@durvasumedha"}
+                                />
+                                <ClientListElement
+                                    src={client8}
+                                    name={"Dr. Mukesh Kumar"}
+                                    instaHandle={"@urocaredrmukeshkumarvijay"}
+                                />
+                                <ClientListElement
+                                    src={client9}
+                                    name={"Adit Sinha"}
+                                    instaHandle={"@aditsinhashow"}
+                                />
+                                <ClientListElement
+                                    src={client10}
+                                    name={"Avi Sinha"}
+                                    instaHandle={"@avisinhashow"}
+                                />
+                                <ClientListElement
+                                    src={client11}
+                                    name={"Yuva 4 Life"}
+                                    instaHandle={"@yuva4life.in"}
+                                />
+                                <ClientListElement
+                                    src={client12}
+                                    name={"Shveta sharma"}
+                                    instaHandle={"@shvetazworld"}
+                                />
+                                <ClientListElement
+                                    src={client13}
+                                    name={"NUB'S"}
+                                    instaHandle={"@nubs_nitika_"}
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>
