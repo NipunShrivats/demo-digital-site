@@ -45,9 +45,10 @@ export default function ClientList() {
             <div className='ClientList'>
 
                 <div className='clientListContainer'>
+
                     <div className='list-1'>
                         <div className='client-box'>
-                            <h3 className='clinet-title'>social media handling</h3>
+                            <h3 className='client-title'>social media handling</h3>
 
                             <ClientListElement
                                 src={client1}
@@ -123,7 +124,7 @@ export default function ClientList() {
 
                     <div className='list-2'>
                         <div className='client-box'>
-                            <h3 className='clinet-title'>Social Media Handling</h3>
+                            <h3 className='client-title'>Social Media Handling</h3>
 
                             <ClientListElement
                                 src={client1}

@@ -37,7 +37,7 @@
     width: 20rem;
 }
 
-.client-box .clinet-title {
+.client-box .client-title {
     color: var(--theme-color-bg);
     text-transform: uppercase;
     margin-bottom: 1rem;
@@ -158,7 +158,7 @@
 @media (max-width:400px) {
 
     .ClientList .clientListContainer {
-        gap: 0rem;
+        gap: .5rem;
     }
 
     .client-box .clinet-title {
@@ -181,5 +181,16 @@
         border: 1px solid red;
         border-radius: 100%;
         width: 1.5rem;
+    }
+
+    .client-box:hover .list {
+        filter: blur(0px);
+        opacity: 1;
+    }
+
+    .client-box .list:hover {
+        filter: blur(0px);
+        opacity: 1;
+        box-shadow: none;
     }
 }
