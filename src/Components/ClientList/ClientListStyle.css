@@ -104,7 +104,7 @@
         gap: 3rem;
     }
 
-    .client-box .clinet-title {
+    .client-box .client-title {
         font-size: 1rem;
     }
 
@@ -132,7 +132,7 @@
         gap: 2rem;
     }
 
-    .client-box .clinet-title {
+    .client-box .client-title {
         font-size: .9rem;
     }
 
@@ -161,11 +161,9 @@
         gap: .5rem;
     }
 
-    .client-box .clinet-title {
+    .client-box .client-title {
         font-size: .7rem;
     }
-
-    .client-box .list {}
 
     .client-box {
         width: 10rem;
