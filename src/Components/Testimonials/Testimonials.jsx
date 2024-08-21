@@ -37,7 +37,7 @@ export default function Testimonials() {
                         name={"Adi Sinha"}
                         username={"@aditsinhashow"}
                         image={clientImage1}
-                        // to={"https://www.facebook.com/reel/790279912242501"}
+                        to={"https://www.facebook.com/reel/790279912242501"}
                         test={"I would like to thank sensationz for handling my accounts and I refer you to use their services..."}
                     />
                 </div>
