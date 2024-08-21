@@ -5,7 +5,8 @@
 .ClientList .clientListContainer {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 6rem;
 }
 
 .ClientList .viewBtn {
@@ -98,6 +99,11 @@
 }
 
 @media (max-width:800px) {
+
+    .ClientList .clientListContainer {
+        gap: 3rem;
+    }
+
     .client-box .clinet-title {
         font-size: 1rem;
     }
@@ -121,6 +127,11 @@
 }
 
 @media (max-width:600px) {
+
+    .ClientList .clientListContainer {
+        gap: 2rem;
+    }
+
     .client-box .clinet-title {
         font-size: .9rem;
     }
@@ -145,6 +156,11 @@
 }
 
 @media (max-width:400px) {
+
+    .ClientList .clientListContainer {
+        gap: 0rem;
+    }
+
     .client-box .clinet-title {
         font-size: .7rem;
     }
