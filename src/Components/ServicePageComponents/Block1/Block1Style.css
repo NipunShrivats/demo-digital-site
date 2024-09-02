@@ -16,6 +16,9 @@
     /* border: 2px solid red; */
     width: 50rem;
 }
+.rightBlock .title-block1{
+    color: var(--theme-color-bg);
+}
 
 @media(max-width:1200px) {
     .mainBlock {

@@ -40,4 +40,5 @@
     display: block;
     text-align: center;
     margin-top: .5rem;
+    color: var(--theme-color-bg);
 }

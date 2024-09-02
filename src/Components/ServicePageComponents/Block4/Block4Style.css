@@ -19,6 +19,7 @@
     /* border: 2px solid red; */
     text-align: center;
     text-transform: uppercase;
+    color: var(--theme-color-bg);
 }
 
 .main-box .main-box-title h1 {
