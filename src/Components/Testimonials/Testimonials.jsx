@@ -5,9 +5,7 @@ import "./TestimonialsStyle.css";
 import PlayIcon from "../../assets/imgAssets/play-icon-red.png";
 import clientImage1 from "../../assets/imgAssets/client-review1.png";
 import clientImage2 from "../../assets/imgAssets/client-review2.png";
-// import clientImage3 from "../../assets/imgAssets/client-review3.png"
-import review1 from "../../assets/imgAssets/reviewSS1.jpg";
-import review2 from "../../assets/imgAssets/reviewSS2.jpg";
+import clientImage3 from "../../assets/imgAssets/client-review3.png";
 import CardTest from "../../Components/CardTest/CardTest";
 
 export default function Testimonials() {
@@ -16,9 +14,7 @@ export default function Testimonials() {
       <div className="testimonials stiff-block">
         <div className="section1">
           <CardTest
-            firstAlphabet={"A"}
             name={"Adi Sinha"}
-            username={"@aditsinhashow"}
             image={clientImage1}
             to={"https://www.facebook.com/reel/790279912242501"}
             test={
@@ -26,9 +22,7 @@ export default function Testimonials() {
             }
           />
           <CardTest
-            firstAlphabet={"S"}
-            name={"Sshetal Maynak"}
-            username={"@sshetalmaynak"}
+            name={"Shetal Maynak"}
             image={clientImage2}
             to={"https://www.youtube.com/watch?v=h_c5ZlBcNaw"}
             test={
@@ -36,13 +30,13 @@ export default function Testimonials() {
             }
           />
           <CardTest
-            firstAlphabet={"A"}
-            name={"Adi Sinha"}
-            username={"@aditsinhashow"}
-            image={clientImage1}
-            to={"https://www.facebook.com/reel/790279912242501"}
+            name={"Client Screen Shots"}
+            image={clientImage3}
+            to={
+              "https://www.instagram.com/reel/C-7n6DLSryD/?igsh=cHZoMnJkY3hhMnkx"
+            }
             test={
-              "I would like to thank sensationz for handling my accounts and I refer you to use their services..."
+              "A shot video showing our happy client expressing their gratitude..."
             }
           />
         </div>

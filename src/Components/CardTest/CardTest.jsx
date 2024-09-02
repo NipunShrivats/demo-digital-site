@@ -10,7 +10,7 @@ import { RiDoubleQuotesL } from "react-icons/ri";
 import { RiDoubleQuotesR } from "react-icons/ri";
 
 export default function CardTest(props) {
-  const { firstAlphabet, name, username, image, to, test } = props;
+  const { name, image, to, test } = props;
 
   return (
     <Card sx={{ maxWidth: 345 }}>
