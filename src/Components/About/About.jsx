@@ -9,14 +9,14 @@ export default function About({ setPlayState }) {
       <div className="about stiff-block">
         <div className="about-left">
           <img src={aboutImg} className="about-img" alt="" />
-          <img
+          {/* <img
             src={playIcon}
             className="play-icon"
             alt=""
             onClick={() => {
               setPlayState(true);
             }}
-          />
+          /> */}
         </div>
         <div className="about-right">
           <h2>Igniting Your Digital Journey with Innovation.</h2>
