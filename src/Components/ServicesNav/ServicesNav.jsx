@@ -1,6 +1,8 @@
 import { React, useState, useEffect } from "react";
-import logob from "../../assets/imgAssets/Logob.png";
-import logow from "../../assets/imgAssets/Logow.png";
+// import logob from "../../assets/imgAssets/Logob.png";
+// import logow from "../../assets/imgAssets/Logow.png";
+
+import logoMain from "../../assets/imgAssets/digital.png";
 import "./ServicesNavStyle.css";
 import { Link } from "react-router-dom";
 import { RxHamburgerMenu } from "react-icons/rx";
@@ -18,7 +20,7 @@ export default function ServicesNav() {
       <div className={`nav container`}>
         <div className="NavLogoCover">
           <Link to="/">
-            <img src={logow} className="img" alt="" />
+            <img src={logoMain} className="logo-main" alt="" />
           </Link>
         </div>
         {/* <span><RxHamburgerMenu className='menu-icon' onClick={toggleMenu} /></span> */}

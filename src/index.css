@@ -2,6 +2,7 @@
 
 :root {
     --theme-color-bg: rgba(227, 15, 14, 1);
+    --theme-color-nav: rgb(207, 45, 45);
     --theme-color-highlight: rgba(227, 15, 14, 1);
     --theme-color-highlight1: rgb(230, 78, 78);
     --theme-color-highlight2: rgba(53, 11, 11, 0.416);

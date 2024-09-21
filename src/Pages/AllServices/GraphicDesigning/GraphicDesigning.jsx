@@ -1,6 +1,6 @@
 import { React, useState, useEffect } from "react";
 import "./GraphicDesigningStyle.css";
-import bannerImg from "../../../assets/imgAssets/banner3.png";
+// import bannerImg from "../../../assets/imgAssets/banner3.png";
 
 import Banner from "../../../Components/ServicePageComponents/Banner/Banner";
 import Block1 from "../../../Components/ServicePageComponents/Block1/Block1";
@@ -40,7 +40,7 @@ export default function GraphicDesigning() {
       ) : (
         <>
           <ServicesNav />
-          <Banner bannerImg={bannerImg} />
+          {/* <Banner bannerImg={bannerImg} /> */}
           <Block1
             leftImg={img1}
             title={"We deliver designs that stick in your memory."}
