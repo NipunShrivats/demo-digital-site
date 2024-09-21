@@ -1,7 +1,6 @@
 import { React, useState, useEffect } from "react";
 import "./SeoStyle.css";
-// import bannerImg from "../../../assets/imgAssets/banner1.png";
-import bannerImg from "../../../assets/imgAssets/digital-banner.png";
+import bannerImg from "../../../assets/banner/seo.png";
 
 import ServicesNav from "../../../Components/ServicesNav/ServicesNav";
 import Banner from "../../../Components/ServicePageComponents/Banner/Banner";

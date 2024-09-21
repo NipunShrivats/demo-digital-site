@@ -1,6 +1,6 @@
 import { React, useState, useEffect } from "react";
 import "./WebDesigningStyle.css";
-// import bannerImg from "../../../assets/imgAssets/banner2.png";
+import bannerImg from "../../../assets/banner/webDesigning.png";
 
 import ServicesNav from "../../../Components/ServicesNav/ServicesNav";
 import Banner from "../../../Components/ServicePageComponents/Banner/Banner";
@@ -40,7 +40,7 @@ export default function WebDesigning() {
       ) : (
         <>
           <ServicesNav />
-          {/* <Banner bannerImg={bannerImg} /> */}
+          <Banner bannerImg={bannerImg} />
           <Block1
             leftImg={img1}
             title={"Best Web Designing Company Offering Web Design Services"}
