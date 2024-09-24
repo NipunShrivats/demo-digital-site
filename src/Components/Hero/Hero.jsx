@@ -13,8 +13,8 @@ export default function Hero() {
           <h3>to</h3>
           <h1 className="last-line">sensationz digital</h1>
           <p>
-            At Senationz Digital, we specialize in boosting your website traffic
-            and empowering your brand to grow exponentially
+            At Sensationz Digital, we specialize in boosting your website
+            traffic and empowering your brand to grow exponentially
           </p>
           <a
             href="https://wa.me/918800348485?text=Hello, I want to know more about your services"
