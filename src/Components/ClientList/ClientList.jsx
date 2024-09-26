@@ -45,22 +45,6 @@ function ClientListElement(props) {
   );
 }
 
-function BrandPromoElement(props) {
-  const { src, name, instaHandle } = props;
-  return (
-    <>
-      <div className="list">
-        <div className="imgBox">
-          <img src={src} alt="" className="list-img" />
-        </div>
-        <div className="content">
-          <h4>{name}</h4>
-        </div>
-      </div>
-    </>
-  );
-}
-
 export default function ClientList() {
   const [toggle, setToggle] = useState(true);
   return (
@@ -150,17 +134,17 @@ export default function ClientList() {
             <div className="client-box">
               <h3 className="client-title">Brand Promotion</h3>
 
-              <BrandPromoElement src={brand1} name={"Virendra Sharma"} />
-              <BrandPromoElement src={brand2} name={"Shivani"} />
-              <BrandPromoElement src={brand3} name={"Bina Kedia"} />
-              <BrandPromoElement src={brand4} name={"Car Vegas"} />
+              <ClientListElement src={brand1} name={"Virendra Sharma"} />
+              <ClientListElement src={brand2} name={"Shivani"} />
+              <ClientListElement src={brand3} name={"Bina Kedia"} />
+              <ClientListElement src={brand4} name={"Car Vegas"} />
 
               <div
                 className={`client-box ${
                   toggle ? "hidden-part" : "visible-part"
                 }`}
               >
-                <BrandPromoElement src={brand5} name={"P5"} />
+                <ClientListElement src={brand5} name={"P5"} />
               </div>
             </div>
           </div>
